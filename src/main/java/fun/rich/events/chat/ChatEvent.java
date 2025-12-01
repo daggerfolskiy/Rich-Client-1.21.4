@@ -1,0 +1,16 @@
+package fun.rich.events.chat;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.experimental.FieldDefaults;
+import fun.rich.utils.client.managers.event.events.callables.EventCancellable;
+
+@AllArgsConstructor
+@Getter
+@Setter
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class ChatEvent extends EventCancellable {
+    String message;
+}

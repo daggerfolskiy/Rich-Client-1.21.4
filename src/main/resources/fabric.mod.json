@@ -1,0 +1,32 @@
+{
+  "accessWidener": "accesswidener",
+  "schemaVersion": 1,
+  "id": "rich",
+  "version": "1.0",
+  "icon": "assets/minecraft/icon.png",
+  "name": "rich",
+  "description": "Rich Client",
+  "authors": [
+    "HZeed",
+    "Bafyy"
+  ],
+  "contact": {
+    "website": "https://rich.fun",
+    "repo": "none"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fun.rich.Rich"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric": "*",
+    "minecraft": "~1.21.4"
+  }
+}
